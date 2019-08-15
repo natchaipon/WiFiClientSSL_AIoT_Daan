@@ -43,13 +43,6 @@ void loop() {
     Serial.write(c);
   }
 
-  //  if (!client.connected()) {
-  //    Serial.println();
-  //    Serial.println("Disconnecting from server...");
-  //    client.stop();
-  //
-  //    while (true);
-  //  }
   client.stop();
   delay(10000);
 }
